@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+
+# generated
+data/*.csv
+results/*
+!results/.gitkeep
+*.pptx
+
+# kept locally, not published yet
+data/
+notebooks/01_era5_netcdf_to_csv.ipynb
+notebooks/02_exploratory_analysis.ipynb
+notebooks/exploration/
+src/era5_to_csv.py
